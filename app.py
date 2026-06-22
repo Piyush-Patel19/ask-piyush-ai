@@ -10,7 +10,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 
 
-load_dotenv()
+api_key = st.secrets["OPENROUTER_API_KEY"]
 
 
 # PAGE 
