@@ -1,0 +1,145 @@
+# Piyush Patel
+
+## Introduction
+
+Piyush Patel is a Computer Science student from India with a strong interest in Artificial Intelligence, Large Language Models (LLMs), Startups, Software Engineering, and Data Science. He enjoys building AI-powered applications and exploring modern technologies in the AI ecosystem.
+
+## Education
+
+* Bachelor of Technology (B.Tech) in Computer Science
+* Current Student
+
+## Technical Skills
+
+### Programming Languages
+
+* Python
+
+### Libraries and Frameworks
+
+* NumPy
+* Pandas
+* LangChain
+* FastAPI
+* Streamlit
+
+### Databases
+
+* ChromaDB
+
+### AI and Machine Learning
+
+* Retrieval-Augmented Generation (RAG)
+* Vector Databases
+* Embeddings
+* Prompt Engineering
+* LLM Applications
+* Semantic Search
+* AI Agents
+
+## Projects
+
+### Personal Resume RAG Chatbot
+
+**Description:**
+An AI chatbot built using LangChain, ChromaDB, Streamlit, and LLMs that answers questions about Piyush Patel's skills, projects, experience, and interests.
+
+**Technologies Used:**
+
+* Python
+* LangChain
+* ChromaDB
+* Streamlit
+* OpenRouter
+
+### Wikipedia AI Search Assistant
+
+**Description:**
+An AI-powered search application that retrieves information from Wikipedia and generates intelligent responses using Large Language Models.
+
+**Technologies Used:**
+
+* Python
+* Streamlit
+* Wikipedia API
+* Gemini API
+
+## Internship Experience
+
+### Advora Labs
+
+**Role:** Full Stack Development Intern
+
+**Duration:** May 2026 – July 2026
+
+**Responsibilities:**
+
+* Assisted in the development and maintenance of web applications.
+* Worked on frontend features as part of the development team.
+* Collaborated with developers to understand software development workflows and best practices.
+* Explored Artificial Intelligence concepts including Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and AI-powered applications.
+* Learned modern AI development tools and frameworks.
+* Gained practical experience in software engineering and web development.
+
+**Technologies and Tools:**
+
+* Python
+* Web Development
+* APIs
+* Git
+* LLMs
+* Retrieval-Augmented Generation (RAG)
+* Lovable
+* Antigravity
+
+## Interests
+
+* Artificial Intelligence
+* Large Language Models
+* Generative AI
+* AI Agents
+* Startups
+* Software Engineering
+* Data Science
+
+## Currently Learning
+
+* NumPy
+* Pandas
+* LangChain
+* FastAPI
+* Retrieval-Augmented Generation (RAG)
+* AI Agent Development
+
+## Career Goals
+
+Piyush Patel aims to become an AI Engineer and Software Developer focused on building intelligent applications, AI agents, Retrieval-Augmented Generation (RAG) systems, and products powered by modern machine learning technologies.
+
+## Achievements
+
+* Built AI-powered applications using Python and LLM APIs.
+* Implemented Retrieval-Augmented Generation (RAG) systems using vector databases.
+* Developed Streamlit applications integrating AI models and external data sources.
+* Actively explores Artificial Intelligence, startups, and emerging technologies.
+
+## Strengths
+
+* Fast learner
+* Curious about AI and startups
+* Strong problem-solving mindset
+* Enjoys building practical and impactful projects
+
+## Open To
+
+* AI Internships
+* Software Engineering Internships
+* Startup Opportunities
+* Research Opportunities
+
+## Contact Information
+
+* Name: Piyush Patel
+* Location: India
+* LinkedIn: Available upon request
+* GitHub: Available upon request
+* Email: Available upon request
