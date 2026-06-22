@@ -1,10 +1,8 @@
 import streamlit as st
 from dotenv import load_dotenv
-
-from langchain_community.vectorstores import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain.chat_models import init_chat_model
-
+from langchain_chroma import Chroma
+from langchain_openrouter import ChatOpenRouter
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
@@ -74,12 +72,11 @@ retriever = db.as_retriever(
 )
 
 
-llm = init_chat_model(
-    "openai/gpt-oss-120b:free",
-    model_provider="openrouter",
+llm = ChatOpenRouter(
+    model="openai/gpt-oss-120b:free",
     temperature=0.3,
+    api_key=st.secrets["OPENROUTER_API_KEY"],
 )
-
 
 
 prompt_template = ChatPromptTemplate.from_template("""
