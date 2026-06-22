@@ -63,6 +63,7 @@ embedding = HuggingFaceEmbeddings(
 )
 
 db = Chroma(
+    collection_name="piyush_portfolio",
     persist_directory="./chroma_db",
     embedding_function=embedding
 )
