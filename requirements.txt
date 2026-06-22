@@ -10,3 +10,4 @@ torchvision
 posthog==5.4.0
 protobuf==3.20.3
 chromadb==0.5.23
+langchain_community
