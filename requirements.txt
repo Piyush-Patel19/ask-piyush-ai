@@ -6,8 +6,5 @@ langchain-openai
 chromadb
 sentence-transformers
 python-dotenv
-<<<<<<< HEAD
 openai
-=======
-openai
->>>>>>> 309723c496d9df57fb94836ace7ed7be8705fe3e
+
