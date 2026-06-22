@@ -1,7 +1,8 @@
 streamlit
 langchain
-langchain-community
+langchain-chroma
 langchain-huggingface
+langchain-openrouter
 langchain-openai
 sentence-transformers
 openai
