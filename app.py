@@ -10,7 +10,12 @@ from langchain_core.runnables import RunnablePassthrough
 import os
 
 os.environ["OPENROUTER_API_KEY"] = st.secrets["OPENROUTER_API_KEY"]
+import subprocess
+import sys
+from pathlib import Path
 
+if not Path("chroma_db").exists():
+    subprocess.run([sys.executable, "ingest.py"], check=True)
 
 
 # PAGE 
