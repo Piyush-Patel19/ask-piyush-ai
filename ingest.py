@@ -1,7 +1,7 @@
 from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.vectorstores import Chroma
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_chroma import Chroma
+from langchain_huggingface import HuggingFaceEmbeddings
 
 loader = TextLoader("Resume.txt")
 docs = loader.load()
@@ -18,11 +18,10 @@ embedding = HuggingFaceEmbeddings(
 )
 
 db = Chroma.from_documents(
-    chunks,
-    embedding,
+    documents=chunks,
+    embedding=embedding,
+    collection_name="piyush_portfolio",
     persist_directory="./chroma_db"
 )
 
-db.persist()
-
-print("Data Stored Successfully")
+print("Data stored successfully")
