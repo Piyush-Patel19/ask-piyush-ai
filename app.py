@@ -73,7 +73,7 @@ def get_db():
 @st.cache_resource
 def get_llm():
     return ChatOpenRouter(
-        model="openai/gpt-oss-120b:free",
+        model="minimax-m3:free",
         temperature=0.3,
         api_key=st.secrets["OPENROUTER_API_KEY"],
     )
